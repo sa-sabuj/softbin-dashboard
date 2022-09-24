@@ -1,0 +1,14 @@
+.row .left-side ul li{
+list-style: none;
+margin: 30px ;
+}
+.row .left-side ul li a{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 13px;
+color: #B5B5B8;
+
+}
