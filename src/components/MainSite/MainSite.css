@@ -49,3 +49,11 @@ line-height: 13px;
 border: none;
 padding: 150px 50px;
 }
+
+.table-calls{
+  margin-right: 10px;
+  color: #B5B5B8;
+  border: none;
+  font-size: 18px;
+  
+}

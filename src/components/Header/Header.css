@@ -29,3 +29,23 @@
 .header .main-menu a:hover{
     color: #767676;
 }
+
+.notification{
+    color: #B5B5B8;
+    font-size: 28px;
+}
+.user-ing img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.nav-right .mail-area p{
+    color: #060610;
+}
+ .nav-right .mail-area p, small{
+  margin-left: 10px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+ }
