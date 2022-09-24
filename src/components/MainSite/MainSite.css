@@ -36,5 +36,16 @@
 .row .left-side .promo img {
     width: 200.14px;
     height: 96px;
-    margin: 0 15px;
+    margin: 0 15px; 
+}
+
+.log-out .btn{
+    color: #B5B5B8;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 13px;
+border: none;
+padding: 150px 50px;
 }
