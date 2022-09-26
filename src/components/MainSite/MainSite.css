@@ -1,5 +1,7 @@
 .main-body {
     background: #E5E5E5;
+    width: 1920px;
+    height: 1201px;
 }
 
 .row .left-side {
@@ -36,24 +38,97 @@
 .row .left-side .promo img {
     width: 200.14px;
     height: 96px;
-    margin: 0 15px; 
+    margin: 0 15px;
 }
 
-.log-out .btn{
+.log-out .btn {
     color: #B5B5B8;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 13px;
-border: none;
-padding: 150px 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    border: none;
+    padding: 150px 50px;
 }
 
-.table-calls{
-  margin-right: 10px;
-  color: #B5B5B8;
-  border: none;
-  font-size: 18px;
-  
+.table-calls {
+    margin-right: 10px;
+    color: #B5B5B8;
+    border: none;
+    font-size: 18px;
+
+}
+
+.main-body .middle-part {
+    width: 1052px;
+    height: 894px;
+    background: #FFFFFF;
+    box-shadow: 0px 5.33778px 26.6889px rgba(6, 6, 16, 0.04);
+    border-radius: 2px;
+    margin: 33px;
+}
+
+.middle-part h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.3511px;
+    line-height: 26px;
+    color: #515158;
+
+}
+
+.middle-part h3 span {
+    color: #FFCC04;
+}
+
+.middle-part Form Button {
+    background: #1AD598;
+    border: none;
+    border-radius: 2.66889px;
+    padding: 10px 50px;
+
+}
+
+
+/* right-side */
+
+.main-body .row .right-side {
+    width: 560.47px;
+    height: 1107.59px;
+   padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    border: 1.33444px solid #FAFAFA;
+   
+}
+
+.main-body .row .right-side  .logo-fav-area{
+    width: 453.71px;
+    height: 990.16px;
+    margin: 53.88px;
+    
+    border: 1.33444px solid rgba(6, 6, 16, 0.05);
+    border-radius: 2.66889px;
+}
+.main-body .row .right-side  .logo-fav-area .favicon{
+    margin: 33px;
+    width: 388px;
+    height: 155px;
+    background: #FAFAFA;
+    border: 1.33444px solid rgba(6, 6, 16, 0.03);
+    border-radius: 2.66889px;
+}
+.main-body .row .right-side  .logo-fav-area .box img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.main-body .row .right-side  .logo-fav-area .box .btn{
+    background: #1AD598;
+    border: none;
+    border-radius: 2.66889px;
+    padding: 8px 10px;
 }
