@@ -57,10 +57,11 @@
     color: #B5B5B8;
     border: none;
     font-size: 18px;
-
 }
 
-.main-body .middle-part {
+/* middle part */
+
+ .main-body .middle-part {
     width: 1052px;
     height: 894px;
     background: #FFFFFF;
@@ -97,22 +98,37 @@
 .main-body .row .right-side {
     width: 560.47px;
     height: 1107.59px;
-   padding: 0;
+    padding: 0;
     margin: 0;
     background: #FFFFFF;
     border: 1.33444px solid #FAFAFA;
-   
+
 }
 
-.main-body .row .right-side  .logo-fav-area{
+.main-body .row .right-side .logo-fav-area {
     width: 453.71px;
     height: 990.16px;
     margin: 53.88px;
-    
+    border: 1.33444px solid rgba(6, 6, 16, 0.05);
+border-radius: 2.66889px;
+
     border: 1.33444px solid rgba(6, 6, 16, 0.05);
     border-radius: 2.66889px;
 }
-.main-body .row .right-side  .logo-fav-area .favicon{
+.right-sidebar-title {
+    margin-left: 33px;
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.0133px;
+    line-height: 24px;
+    color: #060610;
+}
+.single-card{
+    margin-bottom: 33px;
+}
+.main-body .row .right-side .logo-fav-area .favicon {
     margin: 33px;
     width: 388px;
     height: 155px;
@@ -120,15 +136,20 @@
     border: 1.33444px solid rgba(6, 6, 16, 0.03);
     border-radius: 2.66889px;
 }
-.main-body .row .right-side  .logo-fav-area .box img{
+
+.main-body .row .right-side .logo-fav-area .box img {
     width: 100%;
     height: auto;
     padding: 5px;
     margin-bottom: 2px;
 }
-.main-body .row .right-side  .logo-fav-area .box .btn{
+
+.main-body .row .right-side .logo-fav-area .box .btn {
     background: #1AD598;
     border: none;
     border-radius: 2.66889px;
     padding: 8px 10px;
+}
+.single-card .box .bottom-fav .last-input-group{
+    margin-top: 125px;
 }

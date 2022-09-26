@@ -15,6 +15,7 @@ const Header = () => {
                 <a href="/news">News</a>
                 <a href="/user">User Policy</a>
                 <a href="/contact">Contact Us</a>
+                <a href="/pages">Pages</a>
             </div>
             <div className='nav-right row'>
                 <span className='col-lg-2'><i class="fa-solid fa-bell notification"></i></span>
