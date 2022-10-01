@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import LeftSidebar from './components/LeftSidebar/LeftSidebar';
 import RightSidebar from './components/RightSidebar/RightSidebar';
 import PageList from './components/PageList/PageList';
+import NotFound from './components/NotFound/NotFound';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/user' element={<UserPolicy></UserPolicy>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/pages' element={<PageList></PageList>}></Route>
+        <Route path='/*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
       
